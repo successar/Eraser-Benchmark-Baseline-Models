@@ -1,0 +1,6 @@
+-e allennlp/
+numpy
+pandas
+scikit-learn
+p_tqdm
+lime

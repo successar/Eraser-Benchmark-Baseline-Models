@@ -1,0 +1,1 @@
+from Rationale_model.models.base_predictor import RationalePredictor
