@@ -55,7 +55,7 @@ local is_cose = if std.findSubstr('cose', std.extVar('TRAIN_DATA_PATH')) == [] t
       dropout: 0.2
     },
     saliency_scorer : {
-      type: 'simple_gradient',
+      type: std.extVar('saliency'),
       threshold: std.extVar('threshold'),
       batch_size: -1
     },
